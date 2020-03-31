@@ -449,31 +449,16 @@ void PersistentHomologyAnalysis(MatrixXd mat)
             {
                 for(int y = x + 1; y < Keys.size(); ++y)
                 {
-<<<<<<< HEAD
                     I = PointIndexCluster[x];
                     J = PointIndexCluster[y];
-                    IP = PointPositionCluster[x];
-                    JP = PointPositionCluster[y];
-=======
-                    I = PointIndexCluster[i];
-                    J = PointIndexCluster[j];
->>>>>>> c3e79e816509e5f2e6d3ff85ecd6e81900d3a7ad
                     Intersection = Intersect(I,J);
 
                     if(Intersection.size() > 0)
                     {
 
-<<<<<<< HEAD
                         BarcodeDeath[y] = Den[i];
-                        PointIndexCluster[x] = Union(I,J);
-                        PointPositionCluster[x] = UnionMatrix(IP,JP);                        
+                        PointIndexCluster[x] = Union(I,J);                    
                         PointIndexCluster.erase(y);
-                        PointPositionCluster.erase(y);
-=======
-                        BarcodeDeath[j] = Den[i];
-                        PointIndexCluster[i] = Union(I,J);                    
-                        PointIndexCluster.erase(j);
->>>>>>> c3e79e816509e5f2e6d3ff85ecd6e81900d3a7ad
 
                     }
                 }
