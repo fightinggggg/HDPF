@@ -24,5 +24,5 @@ Each column denotes the birth, death and lenght of persistent barcode
 
 
 # Acknowledge
-The **HDPF** program relies on **Eigen** library to perform matrix calculation. If you find **HDPF** in your research, please do not forget to cite Eigen at the same time.
+The **HDPF** program relies on **Eigen** library to perform matrix calculation. If you find **HDPF** helpful in your research, please do not forget to cite Eigen at the same time.
 Eigen:eigen.tuxfamily.org
