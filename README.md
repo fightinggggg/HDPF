@@ -13,7 +13,7 @@ The input file should be a plain text file in tsv format with n columns. With fi
   cat test.txt
 ```
 
-# run
+# Run
 ```
   ./ph test.txt
 ```
