@@ -1,5 +1,5 @@
 # HDPF
-High dimensional peaks finding via topological data analysis
+High dimensional peaks finding via topological data analysis.
 
 # Install
 ```
@@ -20,7 +20,7 @@ The input file should be a plain text file in tsv format with n columns. With fi
 
 # Output
 The output pf **HDPF** is a plain text in tsv format with 3 columns. 
-Each column denotes the birth, death and lenght of persistent barcode
+Each column denotes the birth, death and lenght of persistent barcode.
 
 
 # Acknowledgement
