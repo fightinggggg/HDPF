@@ -8,7 +8,7 @@ High dimensional peaks finding via topological data analysis
   g++ PersistentHomology.cpp -std=c++11 -o ph
 ```
 # Input 
-The input file should be a plain text file in tsv format with n columns. With first n-1 columns denotes the coordinates while the nth column denotes the cooresponding probability landscape.
+The input file should be a plain text file in tsv format with n columns. With first n-1 columns denotes the coordinates while the nth column denotes the cooresponding probability landscape. One thing to remember that the coordiantes must be integers while the probability can be float numbers.
 ```
   cat test.txt
 ```
